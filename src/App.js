@@ -74,7 +74,7 @@ function App() {
         .split(" ")
         .filter((el) => el !== "")
         .join(" ")
-        .trim()
+
     );
   };
   const ratingChanged = (newRating) => {
